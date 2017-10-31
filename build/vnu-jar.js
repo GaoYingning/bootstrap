@@ -40,6 +40,7 @@ childProcess.exec('java -version', (error, stdout, stderr) => {
     vnu,
     '--asciiquotes',
     '--skip-non-html',
+    '--Werror',
     `--filterpattern "${ignores}"`,
     '_gh_pages/',
     'js/tests/'
